@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,12 +15,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@babel/core": "^7.23.7",
     "i": "^0.3.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.7",
     "@babel/plugin-syntax-jsx": "^7.23.3",
     "@babel/plugin-transform-react-jsx-development": "^7.22.5",
     "@babel/preset-env": "^7.23.8",

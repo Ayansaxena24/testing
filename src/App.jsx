@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import React, { Component } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 
 class App extends Component {
   state = {
