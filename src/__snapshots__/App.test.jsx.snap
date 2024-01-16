@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component Matches the snapshot 1`] = `
+<div
+  className="card"
+>
+  <button
+    className="increment"
+    onClick={[Function]}
+  >
+    +++
+  </button>
+  <p>
+    0
+  </p>
+  <button
+    className="decrement"
+    onClick={[Function]}
+  >
+    ---
+  </button>
+</div>
+`;
